@@ -1,28 +1,23 @@
 <?php
-// Declare suas variáveis com números
+// Declare duas variáveis com números
+$numero1 = 73;
+$numero2 = 95;
 
-$var1 = 50;
-$var2 = 75;
-$var3 = "Paulao xave";
-
+// Declare uma variável com uma string
+$texto = "Paulaoe xave";
 
 // Verifique se a variável é um número
-
-if (is_numeric($var1)) {
-    if (is_numeric($var2)) 
-        if (is_float($var3)) 
+if (is_numeric($numero1)) {
     // Se for um número, multiplique por 2
-    $resultado = $var1 * 2;
-    echo"<br>";
-    $resultado = $var2 *2;
-    echo"<br>";
+    $resultado = $numero1 * 2;
+
     // Verifique se o novo número é maior que 100
     if ($resultado > 100) {
-        echo "O resultado é maior que 100: " . $resultado;
+        echo "O resultado é maior que 100 por que é <br>" . $resultado ;
     } else {
-        echo "O resultado não é maior que 100: " . $resultado;
+        echo "O resultado não é maior que 100 por que é<br>" . $resultado ;
     }
-}else {
-    echo "A variável não é um número.";
+} else {
+    echo "A variável não é um número.<br>";
 }
 ?>
